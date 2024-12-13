@@ -13,7 +13,7 @@ Dashboard ini memvisualisasikan analisis distribusi pengguna dan faktor cuaca be
 # Load Dataset
 @st.cache_data
 def load_data():
-    data = pd.read_csv('dashboard\day.csv')
+    data = pd.read_csv('dashboard/day.csv')
     return data
 
 data = load_data()
